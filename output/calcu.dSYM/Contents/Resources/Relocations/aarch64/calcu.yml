@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/leo/Desktop/Tarea del viernes /output/calcu'
+relocations:     []
+...
