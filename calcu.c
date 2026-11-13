@@ -25,7 +25,7 @@ int main (void){
         int opcion = 0;
      while(opcion != 5){
 
-    printf("--Calculadora--\n");
+    printf("\n--Calculadora--\n");
     printf("1. Sumar\n");
     printf("2. Restar\n");
     printf("3. Multiplicar\n");
@@ -40,28 +40,28 @@ int main (void){
 
     switch (opcion){
         case 1:
-        printf("que sumamos?");
+        printf("que sumamos?\n");
         scanf("%f" "%f", &a, &b);
         float rde_suma = sumar(a, b);
         printf("%f\n", rde_suma);
         break;
 
         case 2:
-        printf("que restamos?");
+        printf("que restamos?\n");
         scanf("%f" "%f", &a, &b);
         float rde_resta = restar(a, b);
         printf("%f\n", rde_resta);
         break;
 
         case 3:
-        printf("que multiplicamos?");
+        printf("que multiplicamos?\n");
         scanf("%f" "%f", &a, &b);
         float rde_multi = multiplicacion(a, b);
   printf("%f\n", rde_multi);
         break;
 
         case 4:
-        printf("que dividimos?");
+        printf("que dividimos?\n");
         scanf("%f" "%f", &a, &b);
 
         if (b != 0){
